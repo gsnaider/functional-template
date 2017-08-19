@@ -6,6 +6,7 @@
 )
 
 (defn only-greater-than-five
-  [lst]
-  (filter greater-than-five lst)
+  "Filters a collection keeping only the elements that are greater than five."
+  [collection]
+  (filter greater-than-five collection)
 )
